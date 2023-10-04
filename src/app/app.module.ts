@@ -17,10 +17,7 @@ import { AppComponent } from './app.component';
   providers: [],
   bootstrap: [AppComponent],
   exports: [
-    MainComponent,
-    BrowserModule,
-    AppRoutingModule,
-    AppComponent
+    MainComponent
   ]
 })
 export class AppModule { }
