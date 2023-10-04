@@ -166,7 +166,7 @@
         padding-right: 2.5%;
         box-sizing: border-box;
         margin-bottom:100px;
-        margin-top: 50px;
+        margin-top: 65px;
     }
 
     .aboutMe{ 
@@ -233,6 +233,6 @@
     }
     
     .bottom-card{
-      margin-bottom: 100px;
+      margin-bottom: 200px;
     }
 }
