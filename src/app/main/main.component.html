@@ -1,0 +1,134 @@
+
+<div class="container">
+
+    <div class="aboutMe">
+        <div class="contentAboutMe">
+            <div class="svgContainer"> <img src="assets/svg/draw.svg"  height="200px" width="150px" alt="Description of SVG"></div>
+            <span style="color: #DAFFFB">hello, I am </span>
+            <span class="myName" style="color: #64CCC5">
+                <span class="typewriter-text">{{ typedText }}</span>
+            </span>
+            <span style="font-size: 20px;color: #DAFFFB">Full Stack Developer - Software Engineer</span>
+            <p style="font-size: 1.1em;color:rgb(148 163 184)">I am a software engineer focused mostly in backend, performance, security and a little bit of frontend with considerable experience in different languages.</p>
+            <div class="skills">
+                <h1 class="textAlign" >Skills</h1>
+                <ul>
+                    <li>Javascript</li>
+                    <li>Rails</li>
+                    <li>.NET</li>
+                    <li>Angular</li>
+                    <li>Blaze</li>
+                    <li>Python</li>
+                    <li>SQL and NoSQL</li>
+                    <li>Stripe</li>
+                    <li>AWS</li>
+                    <li>Redis</li>
+
+                </ul>
+            </div>
+            <div class="languages">
+                <h1 class="textAlign">Languages</h1>
+                <ul>
+                    <li>Spanish</li>
+                    <li>English</li>
+                </ul>
+            </div>
+            <div class="aboutMeFooter">
+                <i class="fab fa-linkedin" style="text-align: end;font-size: 2em;"></i>
+                <i class="fa-brands fa-square-github" style="text-align: end;font-size: 2em;"></i>
+            </div>
+
+        </div>
+    </div>
+    <div class="experiences">
+        <div class="experiencesContent">
+            <div class="aboutMeExperience">
+                <h1>About me</h1>
+                <p>
+                    Since I was a kid, I felt a deeply curiosity of learn how the computers works, from hardware to software. As a I grown up, I was able to study and
+                    learn more and more about this, that <b>became a passion</b>. I have studied this field for 9 years now,learning a lot and being able to apply and confirmed what was learned 
+                    in different works. 
+                </p>
+                <p>
+                    Currently, I am working as a <b>Software Engineer in TalkingPoints</b>, using differents modern technologies, finding solutions to different problems, designing solutions and coding. 
+                    Usually I worked more with Backend, but once in a while I like to do some Frontend, where I have also learned different technologies and frameworks.<br>
+                </p>
+                <p>
+                    I am a person who likes to learn new things, and I am always looking for <b>new challenges and opportunities</b> to grow as a professional and as a person.
+                </p>
+            </div>
+            <div class="studies">
+                <h1>Studies</h1>
+                <div class="card">
+                    <div class="card-header">Facultad de Ingeniería - Udelar </div>
+                    <div class="card-body"><p>Degree in computer science. </p><p>2018 - 2023</p></div>
+                </div>
+                <div class="card">
+                    <div class="card-header">Talleres Don Bosco </div>
+                    <div class="card-body"><p>College bachelor's degree specialized in IT. </p><p>2015 - 2017</p></div>
+                </div>
+            </div>
+
+            <div class="workExperience">
+                <h1>Work Experience</h1>
+                <div class="card">
+                    <div class="card-header">Software Engineer at TalkingPoints </div>
+                    <div class="card-body">
+                        <p>Working as a Software Engineer for an ONG (TalkingPoints), developing an app to help the communcation between students, parents and teachers. Increasing family engagement.</p> 
+                        <p>2022 - Actually</p>
+                        <p>Tecnologies: MeteorJS, NodeJS, MongoDB, Blaze, AWS, Dbt, Snowflake.</p>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="card-header"> UKG </div>
+                    <div class="card-body"><p>Worked as a Software Engineer in a known payroll app. </p>
+                        <p>2021 - 2022</p>
+                        <p>Tecnologies: .NET, Microsfto SQL Server, Angular</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header"> Colegio San Francisco de Sales </div>
+                    <div class="card-body"><p>Worked as a Software Engineer in the college app and backoffice. </p>
+                        <p>2019 - 2021</p>
+                        <p>Tecnologies: .NET, Microsfto SQL Server, Angular</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects">
+                <h1>Projects</h1>
+                <div class="card">
+                    <div class="card-header"> WyOwnIt </div>
+                    <div class="card-body"><p> Developed the backend of a objects rent to Canadá, with a subscription system based on Stripe. </p>
+                        <p>Tecnologies: Rails, Stripe, PostgreSQL, Heroku</p>
+                        <p>Github: </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header"> Marcy and Myrtle Coffee </div>
+                    <div class="card-body"><p>Developed the backend of a coffee store in NY. It was made to track the ships between one store to another, with the creation of reports to track sales.</p>
+                        <p>Tecnologies: Rails, PostgreSQL, Heroku</p>
+                        <p>Github: </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header"> Peer to Peer system </div>
+                    <div class="card-body"><p>Developed a custom peer to peer system, where multiple devices could share their files and you can download pieces from each of them. Custom protocol, with invesitagint purposes.</p>
+                        <p>Tecnologies: Python</p>
+                        <p>Github: </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header"> Adversarial attack using evolutionary algorithms </div>
+                    <div class="card-body"><p>Final project of the degree, where we tried to develop an evolutionary algorithms to find adversarial attacks in different scenarios. Still in progress. </p>
+                        <p>Tecnologies: Python, Jupyther notebooks, Pygad, Tensor, etc.</p>
+                        <p>Github: </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sparkle" [ngStyle]="{'left.px': cursorX, 'top.px': cursorY}"></div>
+
+</div>

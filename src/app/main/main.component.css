@@ -1,0 +1,233 @@
+.container{ 
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.aboutMe{ 
+    width: 35vw;
+    height: 100vh;
+    position: sticky;
+    display: inline-block;
+    letter-spacing: 1.5px;
+}
+
+.experiences{
+    width: 64vw;
+    height: 100vh;
+    display: inline-block;
+    overflow: scroll;
+}
+
+.contentAboutMe{
+    position: absolute;
+    width: 100%;
+    top:0;
+    left:15%;
+    padding-top: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: flex-end;
+    gap:5px;
+    box-sizing: border-box;
+    padding-bottom: 20%;
+}
+
+.myName{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.aboutMeFooter{ 
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    align-self: flex-start; /* for horizontal alignment */
+    margin-top: auto; /* pushes the element to the bottom */
+}
+
+.typewriter-text {
+    display: inline;
+    border-right: .15em solid #64CCC5;  
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #64CCC5;
+    }
+  }
+
+  .experiencesContent{
+    width: 100%;
+    top:0;
+    left:15%;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap:5px;
+    box-sizing: border-box;
+    padding-bottom: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .studies{ 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .card{ 
+    width: 100%;
+    height: 150px;
+    background-color: #001C30;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0px 2px 15px 2px rgba(0, 0, 0, 0.15);
+  }
+
+  .card-header{ 
+    font-size: 1.2em;
+    font-weight: bold;
+    color:#DAFFFB;
+  }
+
+  .workExperience, .projects{ 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .workExperience> .card{
+    height: 210px;
+  }
+
+  .textAlign{
+    text-align: start;
+  }
+
+  .projects > .card{
+    height: 250px;
+  }
+
+  .aboutMeExperience > p > b{ 
+    color: #DAFFFB;
+  }
+
+  .skills > ul{ 
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .languages > ul{ 
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .card:hover{ 
+    background-color: #002D4A;
+  }
+
+  @media (max-width: 768px) { /* Adjust 768px to your desired breakpoint */
+    html, body{ 
+        display: block;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    ul{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .textAlign{
+        text-align: center;
+    }
+
+    .container{ 
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        box-sizing: border-box;
+    }
+
+    .aboutMe{ 
+        width: 100vw;
+        height: 100vh;
+        letter-spacing: 1.5px;
+        position: relative;
+
+    }
+    .contentAboutMe{
+        top:0;
+        display: flex;
+        width: 95%;
+        left: 0;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: flex-end;
+        gap:5px;
+        box-sizing: border-box;
+        padding-bottom: 0;
+    }
+
+    .aboutMeFooter{
+        display: none;
+    }
+
+    .experiences{
+        width: 100vw;
+        height: 100vh;
+        box-sizing: border-box;
+        overflow:visible;
+        position: relative;
+    }
+    .experiencesContent{
+        width: 95%;
+        top:0;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        gap:5px;
+        box-sizing: border-box;
+        padding-top: 0;
+        padding-bottom: 0px;
+        padding-left: 0;
+        padding-right: 0;
+        position: relative;
+        left: 0;
+      }
+    
+    .card{
+        height: auto;
+    }
+
+    .svgContainer{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .workExperience> .card{
+        height: auto;
+    }
+    .projects > .card{
+        height: auto;
+    }
+}
