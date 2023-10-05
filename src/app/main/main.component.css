@@ -137,6 +137,12 @@ html,body{
     grid-template-columns: 50% 50%;
   }
 
+
+  .headersContainer{ 
+    display: flex;
+    flex-direction: column;
+  }
+
   .languages > ul{ 
     display: grid;
     grid-template-columns: 50% 50%;
@@ -252,9 +258,5 @@ html,body{
     }
     .skills{ 
       height: 200px;
-    }
-    .headersContainer{ 
-      display: flex;
-      flex-direction: column;
     }
 }
