@@ -1,5 +1,8 @@
+html,body{ 
+  overflow: hidden;
+}
 .container{ 
-    display: block;
+    display: flex;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
@@ -7,7 +10,6 @@
 
 .aboutMe{ 
     width: 35vw;
-    height: 100vh;
     position: sticky;
     display: inline-block;
     letter-spacing: 1.5px;
@@ -15,7 +17,6 @@
 
 .experiences{
     width: 64vw;
-    height: 100vh;
     display: inline-block;
     overflow: scroll;
 }
@@ -25,10 +26,9 @@
     width: 100%;
     top:0;
     left:15%;
-    padding-top: 50%;
+    padding-top: 5%;
     display: flex;
     flex-direction: column;
-    height: 100vh;
     justify-content: flex-end;
     gap:5px;
     box-sizing: border-box;
@@ -70,7 +70,6 @@
     padding-top: 10%;
     display: flex;
     flex-direction: column;
-    height: 100vh;
     gap:5px;
     box-sizing: border-box;
     padding-bottom: 20%;
@@ -86,7 +85,6 @@
 
   .card{ 
     width: 100%;
-    height: 150px;
     background-color: #001C30;
     border-radius: 10px;
     padding: 10px;
@@ -109,17 +107,11 @@
     gap: 15px;
   }
 
-  .workExperience> .card{
-    height: 210px;
-  }
 
   .textAlign{
     text-align: start;
   }
 
-  .projects > .card{
-    height: 250px;
-  }
 
   .aboutMeExperience > p > b{ 
     color: #DAFFFB;
@@ -157,24 +149,23 @@
     }
 
     .container{ 
-        display: block;
         width: 100vw;
-        height: 100vh;
         overflow-y: scroll;
         overflow-x: hidden;
         padding-left: 2.5%;
         padding-right: 2.5%;
         box-sizing: border-box;
         margin-bottom:100px;
-        margin-top: 65px;
+        margin-top: 50px;
+        flex-direction: column;
+        height: auto;
     }
 
     .aboutMe{ 
         width: 100vw;
-        height: 100vh;
         letter-spacing: 1.5px;
         position: relative;
-
+        height: 100vh;
     }
     
     .contentAboutMe{
@@ -183,7 +174,6 @@
         width: 95%;
         left: 0;
         flex-direction: column;
-        height: 100vh;
         justify-content: flex-end;
         gap:5px;
         box-sizing: border-box;
@@ -196,10 +186,11 @@
 
     .experiences{
         width: 100vw;
-        height: 100vh;
+        height: auto;
         box-sizing: border-box;
         overflow:visible;
         position: relative;
+        flex-grow: 1;
     }
     .experiencesContent{
         width: 95%;
@@ -213,26 +204,15 @@
         padding-right: 0;
         position: relative;
         left: 0;
+        height: auto;
       }
     
-    .card{
-        height: auto;
-    }
-
     .svgContainer{
         display: flex;
         justify-content: center;
         width: 100%;
     }
 
-    .workExperience> .card{
-        height: auto;
-    }
-    .projects > .card{
-        height: auto;
-    }
     
-    .bottom-card{
-      margin-bottom: 200px;
-    }
+    
 }
