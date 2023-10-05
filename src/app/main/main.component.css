@@ -168,7 +168,7 @@ html,body{
         padding-right: 2.5%;
         box-sizing: border-box;
         margin-bottom:0;
-        margin-top: 50px;
+        padding-top: 50px;
         flex-direction: column;
         height: auto;
     }
