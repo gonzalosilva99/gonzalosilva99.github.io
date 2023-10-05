@@ -48,6 +48,8 @@ html,body{
     margin-top: auto; /* pushes the element to the bottom */
 }
 
+.aboutMeFooterMobile{ display: none;}
+
 .typewriter-text {
     display: inline;
     border-right: .15em solid #64CCC5;  
@@ -193,6 +195,17 @@ html,body{
     .aboutMeFooter{
         display: none;
     }
+    
+    .aboutMeFooterMobile{ 
+      display: flex;
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      align-self: flex-start; /* for horizontal alignment */
+      margin-top: auto; /* pushes the element to the bottom */
+    }
+    
 
     .experiences{
         width: 100vw;
@@ -201,6 +214,7 @@ html,body{
         overflow:visible;
         position: relative;
         flex-grow: 1;
+        margin-top:5%
     }
     .experiencesContent{
         width: 95%;
