@@ -115,8 +115,9 @@ html,body{
   .card > p{ 
     word-wrap: break-word;
   }
+
   
-  p > a{ 
+  a{ 
     color: #DAFFFB;
   }
 
@@ -137,6 +138,8 @@ html,body{
   .card:hover{ 
     background-color: #002D4A;
   }
+
+  p > a{ text-decoration: none;}
 
   @media (max-width: 768px) { /* Adjust 768px to your desired breakpoint */
     html, body{ 
