@@ -15,7 +15,7 @@ import { AppComponent } from './app.component';
     MainComponent
   ],
   providers: [],
-  bootstrap: [AppComponent, MainComponent],
+  bootstrap: [AppComponent],
   exports: [
     MainComponent, 
     AppComponent

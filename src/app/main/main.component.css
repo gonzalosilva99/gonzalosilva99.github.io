@@ -24,6 +24,7 @@ html,body{
     width: 64vw;
     display: inline-block;
     overflow: scroll;
+    margin-bottom: 4%;
 }
 
 .contentAboutMe{
@@ -31,13 +32,13 @@ html,body{
     width: 100%;
     top:0;
     left:15%;
-    padding-top: 5%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     gap:5px;
     box-sizing: border-box;
     padding-bottom: 20%;
+    padding-top:10%;
 }
 
 .myName{
@@ -88,6 +89,10 @@ html,body{
     display: flex;
     flex-direction: column;
     gap: 15px;
+  }
+
+  .svgContainer > img{
+    height: 19vh;
   }
 
   .card{ 
@@ -230,7 +235,7 @@ html,body{
         box-sizing: border-box;
         position: relative;
         flex-grow: 1;
-        margin-top:5%
+        margin-top:5%;
     }
     .experiencesContent{
         width: 95%;
@@ -246,7 +251,7 @@ html,body{
         left: 0;
         position: relative;
         display: block;
-        height: calc(100vh - 60px);
+        height: calc(100vh + 60px);
       }
     
     .svgContainer{
@@ -258,4 +263,12 @@ html,body{
     .skills{ 
       height: 200px;
     }
+}
+
+@media (max-height: 900px) {
+  
+  .skills > ul{ 
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+  }
 }
