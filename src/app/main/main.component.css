@@ -159,6 +159,10 @@ html,body{
 
   p > a{ text-decoration: none;}
 
+  .bottomBar{ 
+    display: none;
+  }
+
   @media (max-width: 768px) { /* Adjust 768px to your desired breakpoint */
     html,body{ 
         display: block;
@@ -263,6 +267,18 @@ html,body{
     .skills{ 
       height: 200px;
     }
+
+    .sparkle{ 
+      display: none;
+      position: relative;
+    }
+
+    .bottomBar{
+      display: block;
+      position: relative;
+      height: 100px;
+    }
+    
 }
 
 @media (max-height: 900px) {
