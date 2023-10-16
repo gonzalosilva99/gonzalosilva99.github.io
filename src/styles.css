@@ -5,7 +5,7 @@ html, body{
     padding: 0;
     background-color: #001C30;
     font-family: 'Roboto', sans-serif;
-    color:rgb(148 163 184);
+    color: #94a3b8;
     letter-spacing: 1.5px;
     overflow: hidden;
   }
@@ -31,7 +31,8 @@ h1{
 }
 
 p,pre{
-    font-size: 1.1em;color:rgb(148 163 184)
+    font-size: 1.1em;
+    color: #94a3b8;
 }
 
 @media (min-width: 900px) {
