@@ -10,7 +10,7 @@ html, body{
     overflow: hidden;
   }
 
-  .sparkle {
+  .pointer-sparkle {
     pointer-events: none; /* Make sure the sparkle div doesn't interfere with clicks */
     position: absolute;
     width: 900px; /* Adjust size as needed */
